@@ -1,0 +1,41 @@
+{
+  "id": "/sao-intelligents-desktop",
+  "name": "SAO Intelligents AI",
+  "short_name": "SAO Intelligents",
+  "description": "AI assistant by SAO General Trading",
+  "start_url": "/space_nova.html?launch=desktop-app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#06162e",
+  "theme_color": "#06162e",
+  "orientation": "any",
+  "categories": [
+    "productivity",
+    "education",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
